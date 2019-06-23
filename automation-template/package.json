@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/jasmine": "^3.3.13",
+    "jasmine-data-provider": "^2.2.0",
     "protractor": "^5.4.2",
     "protractor-jasmine2-html-reporter": "0.0.7"
   }

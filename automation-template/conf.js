@@ -2,7 +2,10 @@ var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 
 exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['./tests/HomeTests.js'],
+    specs: [
+        './tests/HomeTests.js', 
+        './tests/SignInTests.js'
+    ],
     
     onPrepare: () => {
         browser.waitForAngularEnabled(true);

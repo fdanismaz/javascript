@@ -4,6 +4,9 @@ var protractor = require('protractor');
 var browser = protractor.browser;
 var element = protractor.element;
 
+/**
+ * A definition for managing the category list sections in the home page
+ */
 class CategoryList {
     constructor(locator) {
         this.root = element(locator);
@@ -13,6 +16,9 @@ class CategoryList {
     }
 }
 
+/**
+ * A definition for managing the Quick Links section in the home page
+ */
 class QuickLinks {
     constructor() {
         this.root = element(by.id("quickLinksTaplet"));
@@ -57,6 +63,11 @@ class HomePage extends BasePage {
         this.conversations = new CategoryList(by.id("categorylistdisplay_0"));
         this.githubOriginalSeries = new CategoryList(by.id("categorylistdisplay_1"));
         this.quickLinks = new QuickLinks();
+        this.signInLink = element(by.id("loginPageV2"));
+    }
+
+    signIn() {
+        this.signInLink.click();
     }
 }
 
