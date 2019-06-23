@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "protractor": "protractor conf.js"
+    "protractor": "protractor conf.js --suite common"
   },
   "author": "fdanismaz",
   "license": "ISC",

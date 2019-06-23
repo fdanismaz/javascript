@@ -1,4 +1,4 @@
-var homePage = require('./../pages/HomePage.js');
+var homePage = require('../../pages/HomePage.js');
 
 describe("Home Page Test Scenarios", () => {
 

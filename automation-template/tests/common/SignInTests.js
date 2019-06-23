@@ -1,6 +1,6 @@
-var homePage = require('./../pages/HomePage.js');
-var signInPage = require('./../pages/SignInPage');
-var data = require('./testdata/LoginData');
+var homePage = require('../../pages/HomePage.js');
+var signInPage = require('../../pages/SignInPage');
+var data = require('../testdata/LoginData');
 var using = require('jasmine-data-provider');
 
 describe("Home Page Test Scenarios", () => {
