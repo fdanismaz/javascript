@@ -1,0 +1,16 @@
+{
+  "name": "automation-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "protractor": "protractor conf.js"
+  },
+  "author": "fdanismaz",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^3.3.13",
+    "protractor": "^5.4.2",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  }
+}
